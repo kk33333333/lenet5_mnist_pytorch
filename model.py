@@ -25,7 +25,6 @@ class BackBone(nn.Module):
 
 
 class Head(nn.Module):
-    """全连接分类头，作业要求独立封装"""
     def __init__(self):
         super().__init__()
         self.fc1 = nn.Linear(16 * 5 * 5, 120)
