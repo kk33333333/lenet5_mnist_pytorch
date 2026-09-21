@@ -1,0 +1,12 @@
+# 数据集，不上传
+data/
+# 权重文件（pt二进制文件很大，可以选择不上传；作业想交也可以删掉这行）
+# runs/weights/*.pt
+# VSCode配置、缓存
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# 日志、临时文件
+*.log
